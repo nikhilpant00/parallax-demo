@@ -62,13 +62,18 @@
 .animation_layer.parallax {
 	position: fixed;
 }
-
-#artback {
-  background-image: url(./images/background.png);
+#artback{
+  background-image: url(./images/sky.png);
+}
+#artbackL {
+  background-image: url(./images/sky-l.png);
+}
+#artbackR {
+  background-image: url(./images/sky-r.png);
 }
 
 #mountain {
-  background-image: url(./images/mountains.png);
+  background-image: url(./images/forest.png);
 }
 
 #logoland {
@@ -76,7 +81,7 @@
 }
 
 #jungle1 {
-  background-image: url(./images/jungle1.png);
+  background-image: url(./images/house.png);
 }
 
 #jungle2 {
@@ -89,12 +94,26 @@
 
 #jungle4 {
   background-image: url(./images/jungle4.png);
+  color: #e7f3ff;
 }
 
 #jungle5 {
-  background-image: url(./images/jungle5.png);
+  background-image: url(./images/sea.png);
 }
 
 #manonmountain {
   background-image: url(./images/man_on_mountain.png);
+}
+
+.test{
+  div{
+    // inset: 0 0 0 800px  ;
+    width: 100vw;
+  }
+}
+.test2{
+  div{
+    // inset: 0 0 0 -25px;
+    width: 100vw !important;
+  }
 }
