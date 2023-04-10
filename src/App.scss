@@ -1,46 +1,84 @@
-#textblock {
-  background-color: #210002;
+// .App{
+//   div:nth-child(1) {
+//       position: unset !;
+//     }
+// }
+.Navbar{
+  div{
+    z-index: 10;
+    height: 55px !important;
+  }
+}
+.hero-text-container{
+  div{
+    inset: 200px 0 0 0 !important;
+    z-index: 2;
+  }
+}
+.hero-text{
+    width: 40%;
+    height: 6rem;
+    border: 1px solid white;
+}
+.mountain-2{
+  color: #222322;
+  div{
+    inset: 0 0 0 -400px;
+  }
+}
+.page-2{
+  div{
+    // inset: -10px 0 0 0 !important;
+  }
+}
+.page-2-layer-0{
+  div{
+    inset: -500px 0 0 0 !important;
+  }
+}
+.page-2-layer-1{
+  div{
+    inset: -230px 0 0 0 !important;
+  }
+}
+
+
+.textblock {
   height: 100vh;
+  background-size: cover;
 }
 
-#textblock-container {
-  width: 50%;
-  margin: 0 auto;
-  padding-top: 70px;
+.textblock-container {
+  margin: 0 5% 0 5%;
 }
 
-#textblock-title {
-  color: #ffaf1b;
-  font-size: 35px;
-  font-weight: 600;
-  font-family: "Helvetica Neue";
-}
-
-#textblock-content {
-  color: #ffaf1b;
-  font-size: 20px;
-}
-
-#textblock-footer {
-  color: #ffaf1b;
-  font-size: 15px;
+.textblock-title {
+  color: white;
   font-weight: 400;
-  position: fixed;
-  width: 100%;
-  bottom: 0px;
-  justify-content:center;
-  align-items:center;
-  text-align:center;
-  margin-bottom: 20px;
-
+  margin-bottom: 0 !important;
+  text-transform: uppercase;
 }
 
-#textblock-devsense {
-  text-decoration: none;
-  color: #ffaf1b;
-  font-size: 15px;
-  font-weight: 600;
+.textblock-content {
+  h1{
+    width: 60%;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 95px;
+    line-height: 1;
+    letter-spacing: -5px;
+  }
+  p{
+    margin-top: 1rem;
+    width: 30%;
+    line-height: 2;
+    color: white;
+  }
 }
+
+
+
+
 
 .animation, .animation_layer {
 	height: 1000px;
@@ -94,7 +132,7 @@
 
 #jungle4 {
   background-image: url(./images/jungle4.png);
-  color: #e7f3ff;
+  color: #92c7fc;
 }
 
 #jungle5 {
@@ -105,15 +143,40 @@
   background-image: url(./images/man_on_mountain.png);
 }
 
-.test{
+.layer-1{
   div{
     // inset: 0 0 0 800px  ;
     width: 100vw;
   }
 }
-.test2{
+.layer-2{
   div{
     // inset: 0 0 0 -25px;
     width: 100vw !important;
+  }
+}
+.layer-3{
+  div{
+    inset: -120px 0 0 0;
+  }
+}
+.layer-4{
+  div{
+    inset: -120px 0 0 0;
+  }
+}
+.layer-5{
+  div{
+    inset: -180px 0 0 0;
+  }
+}
+.layer-6{
+  div{
+    inset: -80px 0 0 0;
+  }
+}
+.layer-7{
+  div{
+    inset: -10px 0 0 0;
   }
 }
